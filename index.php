@@ -22,9 +22,9 @@ function substr_sentence($string, $start=0, $limit=10, $max_char = 600)
     
     // list of sentences-ends. All sentences ends with one of these. For PHP, add the ;
     $end_characters = array(
-                '. ', 
-                '? ',
-                '! '
+                '.', 
+                '?',
+                '!'
                 );
     
     // put $string in array $parts, necessary evil
